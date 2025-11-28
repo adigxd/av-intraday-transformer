@@ -36,7 +36,6 @@ A self-hosted .NET 8 Web API that consumes the Alpha Vantage API and exposes an 
    **Alternative: Edit appsettings.json directly**
    - Open `appsettings.json`
    - Replace `YOUR_API_KEY_HERE` with your actual API key
-   - ⚠️ **Warning:** If you edit `appsettings.json` directly, make sure not to commit your real API key to git!
 
 3. **Run the application**
    ```bash
