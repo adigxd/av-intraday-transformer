@@ -28,7 +28,7 @@ A self-hosted .NET 8 Web API that consumes the Alpha Vantage API and exposes an 
 
 2. **Configure the API Key**
    
-   **Recommended: Use .NET User Secrets (keeps your key private)**
+   **Recommended: Use .NET User Secrets**
    ```bash
    dotnet user-secrets set "AlphaVantage:ApiKey" "your-actual-api-key-here"
    ```
@@ -130,8 +130,3 @@ The API returns appropriate HTTP status codes:
 - `200 OK`: Success
 - `400 Bad Request`: Invalid symbol or API configuration error
 - `500 Internal Server Error`: Server error
-
-## License
-
-This project is provided as-is for demonstration purposes.
-
